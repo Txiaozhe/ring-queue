@@ -25,6 +25,10 @@ new Ring(source_arr, start_index)
 
 move to next node;
 
+* prev();
+
+move to preview node;
+
 *  getNode(index);
 
 get the node in 'index'; default the latest;
