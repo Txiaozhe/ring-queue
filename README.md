@@ -29,6 +29,10 @@ move to next node;移动到下一个节点。
 
 move to preview node;移动到上一个节点。
 
+* move(step);
+
+Move to the node specified by step, if stop < 0, then move in reverse;移动到step指定的节点，若stop < 0, 则反向移动
+
 *  getNode(index);
 
 get the node in 'index'; default the latest;获取index指定的节点，默认返回当前节点。
@@ -47,4 +51,4 @@ get the preview index;获取上一个索引。
 
 * isReturn();
 
-Judge whether or not it has run a circle;判断是否运行了一个周期
+whether or not is it at the starting point;判断当前是否是在起点。
