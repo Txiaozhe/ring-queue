@@ -21,6 +21,10 @@ new Ring(source_arr, start_index)
 
 **start_index**: start in where index, default 0;开始运行的起始点，默认为0；
 
+* length
+
+get length of queue;获取队列长度。
+
 * next();
 
 move to next node;移动到下一个节点。
