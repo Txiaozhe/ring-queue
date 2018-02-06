@@ -5,10 +5,14 @@
 
 const Ring = require('../lib/ring');
 
-const ring = new Ring([0, 1, 2, 3, 4, 5, 6, 7, 8]);
+const ring = new Ring([0, 1, 2, 3, 4, 5, 6, 7, 8], 5);
 
-ring.move(-6);
+// ring.move(-6);
 
-console.log(ring.length);
+// console.log(ring.length);
+//
+// console.log(ring.getIndex());
 
-console.log(ring.getIndex());
+ring.exec((i, n) => {
+  console.log(i, n);
+});

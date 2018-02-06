@@ -56,3 +56,7 @@ get the preview index;获取上一个索引。
 * isReturn();
 
 whether or not is it at the starting point;判断当前是否是在起点。
+
+* exec(callback);
+
+callback: (index, node) => {} index: the latest index; node: the latest node;
