@@ -19,7 +19,7 @@ new Ring(source_arr, start_index)
 
 **source_arr**: an array to init a ring queue, not null;用于初始化环形队列的数组，不能为空。
 
-**start_index**: start in where index, default 0;开始运行的起始点，默认为0；
+**start_index**: start in where index, default 0, if start_index < 0, it is 0;开始运行的起始点，默认为0, 若start_index < 0, 则为0；
 
 * length
 
