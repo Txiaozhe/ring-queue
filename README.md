@@ -1,5 +1,7 @@
 # ring-queue
 
+a simple ring queue data structure.
+
 ```bash
 $ npm install ring-queue --save
 ```
